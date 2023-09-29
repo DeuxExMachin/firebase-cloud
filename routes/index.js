@@ -6,7 +6,7 @@ import multer from 'multer'
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 
 // TODO: import Firebase applications
-import firebaseApp from './firebase.js'
+import firebaseApp from '../firebase.js'
 
 const router = express.Router()
 const upload = multer()
