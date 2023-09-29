@@ -31,7 +31,7 @@ router.post('/auth', function (req, res, next) {
       res.redirect('/')
     })
     .catch((_) => {
-      
+      res.render('auth', { error: 'Wrong credential' })
     });
 })
 
